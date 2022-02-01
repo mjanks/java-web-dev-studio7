@@ -7,10 +7,14 @@ public class Main {
         // TODO: Declare and initialize a CD and a DVD object.
         CD cd = new CD(0.7, "Top", "CIRC and EFMP");
         DVD dvd = new DVD(4.7, "Middle", "RS-PC and EFMplus");
+        LP lp = new LP();
+        FloppyDisk floppyDisk = new FloppyDisk();
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
         cd.spin();
         dvd.spin();
+        lp.spin();
+        floppyDisk.spin();
 
     }
 }
